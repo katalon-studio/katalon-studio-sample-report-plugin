@@ -13,7 +13,7 @@ katalon-studio-sample-report-plugin
 │   │   ├── SampleReportUtil.groovy
 │   │   ├── TxtReportBuilder.groovy
 ├── Test Listeners
-│   ├── SampleReportTSListener
+│   ├── SampleReportTSListener.groovy
 ```
 
 ## How to build
