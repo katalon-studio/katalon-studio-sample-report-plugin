@@ -1,0 +1,8 @@
+{
+  "name": "katalon-studio-sample-report-plugin",
+  "keywords": [
+    "sample.report.SampleReportUtil",
+    "sample.report.TxtReportBuilder"
+  ],
+  "listeners": ["SampleReportTSListener"]
+}
