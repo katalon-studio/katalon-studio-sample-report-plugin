@@ -49,6 +49,7 @@ public class SampleReportUtil {
 						reportBuilder.newLineFrom("\t\t[Failure Reason] " + testStepLogRecord.getMessage());
 					}
 				}
+				reportBuilder.newLineFrom("\t[End At] " + DateUtil.getDateTimeFormatted(testCaseLogRecord.getEndTime()));
 				reportBuilder.newLineFrom("\t[Test Case End] -------");
 			}
 			reportBuilder.newLineFrom("[Test Suite End] -------");
